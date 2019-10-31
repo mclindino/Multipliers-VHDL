@@ -1,0 +1,12 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.ALL;
+
+PACKAGE array32 IS
+
+	SUBTYPE reg IS STD_LOGIC_VECTOR(32 DOWNTO 0);
+		TYPE reg_array IS ARRAY(15 DOWNTO 0) OF reg;
+		
+END array32;
+
+PACKAGE BODY array32 IS
+END array32;
